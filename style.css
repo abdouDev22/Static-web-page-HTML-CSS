@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Espace entre la logo et la liste */
+    position: relative;
+    height: 124px;
+    background-color: #F9E0AE;
+}
+
+header nav .logo {
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 05%;
+    width: 50px; /* Largeur de l'élément logo */
+    height: 50px; /* Hauteur de l'élément logo */
+}
+header nav .logo .text{
+    position: relative;
+    top: 10px;
+    font-family: 'Jim Nightshade';
+    font-size: 40px;
+}
+
+header nav ul {
+    position: relative;
+    left: 150px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+header nav ul li {
+    margin-left: 56px; /* Espace entre les éléments de la liste */
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    width: 74.98px;
+    height: 30px;
+
+}
+header nav ul li .Contact{
+    display: block;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    background-color: #C24914;
+    color: #fff;
+    border-radius: 10px;
+}
