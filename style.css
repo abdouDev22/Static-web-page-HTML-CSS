@@ -114,3 +114,36 @@ main .part1 .content2{
     width: 487px;
     height: 487px;
 }
+main .part2{
+    display: flex;
+    position: relative;
+    left: 40px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 1040px;
+    height: 379px;
+    margin-left: 120px;
+}
+main .part2 .content1, main .part2 .content2{
+    flex: 1;
+}
+main .part2 .content2 {
+    margin-left: 100px;
+}
+main .part2 .content2 h1{
+    width: 407px;
+    height: 144px;
+    font-weight: 800;
+    font-size: 48px;
+}
+main .part2 .content2 ul{
+    position: relative;
+    left: 25px;
+    width: 460px;
+    height: 128px;
+    font-size: 24px;
+}
+main .part2 .content1 {
+    width: 480px;
+    height: 379px;
+}
