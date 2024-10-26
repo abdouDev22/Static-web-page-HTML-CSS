@@ -229,7 +229,7 @@ main .part4 .content1 p{
 main .part4 .content1 a{
     display: block;
     position: relative;
-    left: 130px;
+    left: 200px;
     text-align: center;
     width: 200px;
     height: 44px;
@@ -248,4 +248,32 @@ main .part4 .content2{
     width: 487px;
     height: 487px;
     position: relative;
+    top: -220px;
+    left: 180px;
 }
+main .part4 .content2 img{
+    width: 800px;
+    height: 550px;
+}
+.img1{
+    position: relative;
+    top: -450px;
+    right: 100px;
+}
+.img2{
+    position: relative;
+    top: -350px;
+    left: 300px;
+}
+.img3{
+    position: relative;
+    top: -725px;
+    left: 400px;
+}
+.img4{
+    position: relative;
+    top: -650px;
+    left: 620px;
+}
+
+
