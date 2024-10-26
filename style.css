@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Espace entre la logo et la liste */
+    position: relative;
+    height: 124px;
+    background-color: #F9E0AE;
+}
+
+header nav .logo {
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 05%;
+    width: 50px; /* Largeur de l'élément logo */
+    height: 50px; /* Hauteur de l'élément logo */
+}
+header nav .logo .text{
+    position: relative;
+    top: 10px;
+    font-family: 'Jim Nightshade';
+    font-size: 40px;
+}
+
+header nav ul {
+    position: relative;
+    left: 150px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    font-weight: 600;
+    font-size: 20px;
+}
+
+header nav ul li {
+    margin-left: 56px; /* Espace entre les éléments de la liste */
+}
+
+header nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    width: 74.98px;
+    height: 30px;
+
+}
+header nav ul li .Contact{
+    display: block;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    background-color: #C24914;
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+main .part1{
+    display: flex;
+    width: 1080px;
+    height: 487px;
+    margin-left: 120px;
+}
+main .part1 .content1, main .part1 .content2{
+    flex: 1;
+}   
+
+main .part1 .content1 h1{
+    width: 428px;
+    height: 144px;
+    font-weight: bold;
+    font-size: 48px;
+}
+main .part1 .content1 p{
+    width: 550px;
+    height: 60px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 46%);
+}
+main .part1 .content1 a{
+    display: block;
+    position: relative;
+    left: 10px;
+    text-align: center;
+    width: 200px;
+    height: 44px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #682C0E;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+}
+main .part1 .content1 a .text{
+    position: relative;
+    top: 05px;
+}
+main .part1 .content1 h1, main .part1 .content1 p, main .part1 .content1 a{
+    margin: 50px;
+}
+
+main .part1 .content2{
+    width: 487px;
+    height: 487px;
+}
+main .part2{
+    display: flex;
+    position: relative;
+    left: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 1040px;
+    height: 379px;
+    margin-left: 120px;
+}
+main .part2 .content1, main .part2 .content2{
+    flex: 1;
+}
+main .part2 .content2 {
+    margin-left: 100px;
+}
+main .part2 .content2 h1{
+    width: 407px;
+    height: 144px;
+    font-weight: 800;
+    font-size: 48px;
+}
+main .part2 .content2 ul{
+    position: relative;
+    left: 25px;
+    width: 460px;
+    height: 128px;
+    font-size: 24px;
+}
+main .part2 .content1 {
+    width: 480px;
+    height: 379px;
+}
+main .part3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    width: 1040px;
+    height: auto;
+    left: 40px;
+    margin-bottom: 100px;
+    margin-left: 120px;
+}
+main .part3 .top-content{
+    display: flex;
+    gap: 20px;
+}
+main .part3 .content1, main .part3 .content2{
+    flex: 1;
+}
+main .part3 .content1 h1{
+    width: 630px;
+    height: 216px;
+    font-weight: 800;
+    font-size: 48px;
+}
+main .part3 .content2{
+    width: 439.31px;
+    height: 292.64px;
+}
+main .content3 {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+main .content3 form{
+    display: flex;
+    align-items: center;
+    background-color: #F9E0AE;
+    width: 1080px;
+    height: 100px;
+}
+main .content3 form input{
+    width: 300px;
+    height: 63px;
+    margin: 30px;
+    text-align: center; 
+}
+main .content3 form input:last-of-type{
+    background-color: #C24914;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
