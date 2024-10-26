@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins';
 }
 
 
@@ -36,7 +37,7 @@ header nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    font-family: 'Poppins';
+    
     font-weight: 600;
     font-size: 20px;
 }
@@ -46,6 +47,7 @@ header nav ul li {
 }
 
 header nav ul li a {
+    display: block;
     text-decoration: none;
     color: #333;
     width: 74.98px;
@@ -61,4 +63,54 @@ header nav ul li .Contact{
     background-color: #C24914;
     color: #fff;
     border-radius: 10px;
+}
+
+
+main .part1{
+    display: flex;
+    width: 1080px;
+    height: 487px;
+    margin-left: 120px;
+}
+main .part1 .content1, main .part1 .content2{
+    flex: 1;
+}   
+
+main .part1 .content1 h1{
+    width: 428px;
+    height: 144px;
+    font-weight: bold;
+    font-size: 48px;
+}
+main .part1 .content1 p{
+    width: 550px;
+    height: 60px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 46%);
+}
+main .part1 .content1 a{
+    display: block;
+    position: relative;
+    left: 10px;
+    text-align: center;
+    width: 200px;
+    height: 44px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #682C0E;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+}
+main .part1 .content1 a .text{
+    position: relative;
+    top: 05px;
+}
+main .part1 .content1 h1, main .part1 .content1 p, main .part1 .content1 a{
+    margin: 50px;
+}
+
+main .part1 .content2{
+    width: 487px;
+    height: 487px;
 }
