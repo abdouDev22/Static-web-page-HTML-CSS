@@ -175,28 +175,169 @@ main .part3 .content2{
     width: 439.31px;
     height: 292.64px;
 }
-main .content3 {
+main .part3 .content3 {
     position: relative;
     margin-top: 100px;
-    margin-bottom: 100px;
+
 }
-main .content3 form{
+main .part3 .content3 form{
     display: flex;
     align-items: center;
     background-color: #F9E0AE;
     width: 1080px;
     height: 100px;
 }
-main .content3 form input{
+main .part3 .content3 form input{
     width: 300px;
     height: 63px;
     margin: 30px;
     text-align: center; 
 }
-main .content3 form input:last-of-type{
+main .part3 .content3 form input:last-of-type{
     background-color: #C24914;
     color: #fff;
     font-size: 20px;
     font-weight: bold;
     border: none;
+}
+main .part4{
+    display: flex;
+    width: 1080px;
+    height: 100px;
+    margin-left: 120px;
+}
+main .part4 .content2, main .part4 .content1{
+    flex: 1;
+}
+main .part4 .content1{
+    display: flex;
+    flex-direction: column;
+}
+main .part4 .content1 h1{
+    width: 531px;
+    height: 144px;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+main .part4 .content1 p{
+    width: 550px;
+    height: 60px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 46%);
+}
+main .part4 .content1 a{
+    display: block;
+    position: relative;
+    left: 200px;
+    text-align: center;
+    width: 200px;
+    height: 44px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #FC8621;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+}
+main .part4 .content1 a .text{
+    position: relative;
+    top: 05px;
+}
+main .part4 .content2{
+    width: 487px;
+    height: 487px;
+    position: relative;
+    top: -220px;
+    left: 180px;
+}
+main .part4 .content2 img{
+    width: 800px;
+    height: 550px;
+}
+.img1{
+    position: relative;
+    top: -450px;
+    right: 100px;
+}
+.img2{
+    position: relative;
+    top: -350px;
+    left: 300px;
+}
+.img3{
+    position: relative;
+    top: -725px;
+    left: 400px;
+}
+.img4{
+    position: relative;
+    top: -650px;
+    left: 620px;
+}
+footer {
+    position: relative;
+    top: 600px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F9E0AE; /* Couleur de fond du footer */
+    color: #000; /* Couleur du texte */
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    height: 302px;
+}
+footer .logo{
+    position: relative;
+    top: 100px;
+    left: 150px;
+    width: 100px;
+    height: 100px;
+}
+footer .logo .text{
+    position: relative;
+    top: -30px;
+    left: 37px;
+    font-family: 'Jim Nightshade';
+    font-size: 40px;
+}
+footer .FollowUs{
+    position: relative;
+    top: 100px;
+    left: 150px;
+    height: 100px;
+}
+footer .FollowUs .text{
+    font-size: 20px;
+    font-weight: 700;
+}
+footer .UsefulLinks{
+    position: relative;
+    top: 100px;
+    left: 50px;
+    font-size: 15px;
+    color: #6C6C6C;
+    height: 100px;
+}
+footer .UsefulLinks .text{
+    position: relative;
+    right: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+}
+footer .Contacts{
+    position: relative;
+    top: 100px;
+    right: 40px;
+    font-size: 15px;
+    color: #6C6C6C;
+    height: 100px;
+}
+footer .Contacts .text{
+    position: relative;
+    right: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
 }
